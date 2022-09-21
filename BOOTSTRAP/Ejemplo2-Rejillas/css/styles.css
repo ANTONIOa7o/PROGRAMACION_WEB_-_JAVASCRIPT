@@ -1,0 +1,111 @@
+.border{
+    border-width: 10px !important; 
+    border-color: white !important;
+}
+.seccion1{
+
+    background-color: crimson;
+    height: 400px;
+    text-align: center;
+    font-size: 100pt;
+}
+.seccion2{
+
+    background-color: crimson;
+    height: 400px;
+    text-align: center;
+    font-size: 100pt;
+}
+.seccion3{
+
+    background-color: crimson;
+    height: 400px;
+    text-align: center;
+    font-size: 100pt;
+}
+
+.encabezado{
+    background-color: greenyellow;
+
+}
+.footer1{
+    background-color: yellow;
+    height: 80px;
+    text-align: center;
+    font-style: italic;
+    float: right;
+
+}
+.footer2{
+    background-color: yellow;
+    height: 80px;
+    text-align: center;
+    font-style: italic;
+    float: left;
+
+}
+
+/*
+Ante la situacion de poder controlar los cambios de visualizacion, surgió una oportunidad mas
+que es la de generar también cambios estilisticos de los elementos, para lo cual utilizaremos la 
+propiedad de @media
+*/
+@media (max-width:992px) {
+
+    .encabezado{
+        background-color: brown;
+        text-align: left;
+    }
+    .seccion1{
+        height: 300px;
+        line-height: 300px;
+        text-align: left;
+    }
+    .seccion2{
+        background-color: crimson;
+        height: 300px;
+        line-height: 300pc;
+        text-align: left;
+    }
+    .seccion3{
+        background-color: greenyellow;
+        height: 300px;
+        line-height: 300px;
+       text-align: left;
+    }
+    .footer1{
+        text-align: center;
+
+    }
+    .footer2{
+        text-align: center;
+
+    }
+}
+@media (max-width:768px) {
+    .encabezado{
+        background-color: salmon;
+        text-align: center;
+    }
+    .seccion1{
+        height: 200px;
+        line-height: 200px;
+        text-align: left;
+
+    }
+    .seccion2{
+        background-color: cyan;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+
+    }
+    .seccion3{
+        background-color: crimson;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+
+    }
+    
+}
