@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: xx-large;
+    text-shadow: 2px 2px 2px silver;
+}
+/*
+efectos swalert
+*/
+.swal-overlay{/*fondo*/
+background-color: rgb(203,241,233);
+
+}
+.swal-modal{ /*Ventana*/
+
+    border: 0.1rem solid black
+}
+.swal-footer{
+    background-color: rgb(245,248,250);
+    margin-top: 32px;
+    border-top: 1px solid #E9EEF1;
+}
