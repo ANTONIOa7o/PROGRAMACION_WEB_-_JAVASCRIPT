@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Practica</title>
+</head>
+
+<body>
+    <div>
+        <h2>Ejercicio:</h2>
+        <p>
+            Un usuario intruce dos numeros
+        </p>
+        <ul>
+            <li>Respuesta de la suma de ambos numeros ya sea por alert, document o console</li>
+            <li>resta -, division / y multiplicacion* idem</li>
+            <li>Recuerda: Recibes un valor string, a pasar a parseInt</li>
+        </ul>
+    </div>
+    <script>
+
+        var dato1 = parseInt(window.prompt('Introduce el primer valor'));
+        var dato2 = parseInt(window.prompt('Introduce el segundo valor'));
+
+        var suma = ((dato1) + (dato2));
+        alert("La suma de ambos valores es " + suma);
+        var resta = ((dato1) - (dato2));
+        document.write("La resta de ambos valores es " + resta);
+        var multi = ((dato1) * (dato2));
+        console.log("La multiplicacion de ambos valores es " + multi);
+        var div = ((dato1) / (dato2));
+        alert("La division de ambos valores es " + div);
+
+
+    </script>
+</body>
+
+</html>
