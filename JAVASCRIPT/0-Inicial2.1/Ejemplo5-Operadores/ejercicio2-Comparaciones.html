@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Lógicos, relacionales y aritmetico</title>
+</head>
+
+<body>
+    <!--
+
+1.OPERADORS LÓGICIOS
+
+Operadores           Simbolo                            Descripcion
+
+    Y                   &&                        Todas las sentencias, tendran condicion true,
+                                                  en la expcepcion de una sentencia que fuera false, 
+                                                  traslada la falsedad a toda la sentencia
+
+    O                   ||                        Todas las sentencias definidas, seran true, con al 
+                                                menos true o verdad algunas de sus sentencias
+
+    NO(Negacion)        !                       Delvuelve su valor contrario !Si = NO
+
+
+2.OPERADORES RELACIONALES
+
+Operadores                  Simbolo                             Descripcion
+
+igual a                      ==                            igualdad entre elementos comparados
+distinto de                  !=                            Contrario al elemento comparado
+Mayor, Mayor e igual         >,>=                          Comparacion de cantidad, mayor que o mayor o igual que...
+Menor, menor e igual         <,<=                          Comparacion de cantidad menor que o menor o igual que...
+Igualdad estricta            ===                           Igualdad de toda naturaleza de los aspectos de la variable(valor y tipo)
+Destinto de la estricta      !==                           Contrario al elemento comparado de manera estricta
+
+
+3.OPERADORES ARITMETICO
+
+Operadores                  Simbolo                                     Descripcion
+
+Suma, resta                     +,-                            
+division, multiplicacion        /,*
+cambio de signo                 -
+Incremento                      ++
+decremento                      --
+resto de divison                %
+
+-->
+    <script>
+
+        var numero = 7;
+
+        console.log("Igualdad " + (numero == 7));
+        console.log("Desigualdad " + (numero != 7));
+        console.log("Mayor " + (numero > 7));
+        console.log("Mayor e igual " + (numero >= 10));
+        console.log("Menor " + (numero < 5));
+        console.log("Menor e igual " + (numero <= 7));
+
+        //Igualdad estricta
+        console.log("Igual " + (numero == "7"));
+        console.log("Igualdad estricta "+ (numero === "7"));
+
+        //Desigualdad
+        console.log("Igual " + (numero != "7"));
+        console.log("Igualdad estricta "+ (numero !== "7"));
+
+        //Operadores logicos
+        var nombre1 = "Juan";
+        var nombre2 = "Pepa";
+
+        console.log("Condicion Y: " + ((nombre1 == "Juan") && (nombre2 == "Ppepa")));//false
+        console.log("Condicion O " + ((nombre1 == "Juan") || (nombre2 == "Ppepa")));//true
+        console.log("Negacion 2º Sentencia: " + (!(nombre2 == "Pepaa")));
+        console.log("Negacion de la 1º Sentencia " + (!(nombre1 = "Juan")));
+
+
+    </script>
+</body>
+
+</html>
