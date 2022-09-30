@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion Estructuras de Control</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <!--
+                ========================
+                ESTRUCTURAS DE CONTROL
+                =======================
+
+        1. if else
+        2.switch Case
+        3.for
+        4.for in for of
+        5.while
+        6.Do While---------------------
+
+
+1. IF ELSE ⇲
+
+        Sintaxis:
+
+        if(Condicion == true){
+
+            [sentencia1/s ejectua mientras la condicion es true];
+
+        }else{
+            [sentencia2/s ejecuta mientras la condicion sea false]
+        }
+
+[Definicion: La comprobacion de la validacion o falsedad de una condicion, establecida.
+Si dicha condicion true, se ejectua, el primer codigo, si fuera false, habria como una
+interrupcion y se interpretaria el código de la segunda sentencia, o cualquiera que sea true]        
+    -->
+<script>
+    var numero=4;
+
+    if(numero>=5){
+        swal("numero es mayor o igual que 5");
+    }else{
+        swal("numero es menor que 5");
+    }
+
+    //anidaciones simples
+
+
+    var numero2=8;
+
+    if(numero>=5){
+        swal("Numero es mayor o igual que 5 ");
+    }else if(numero2>=5){
+        swal("Numero2 es mayor o igual que 5");
+    }else{
+        swal("Ambos numeros son menores que 5")
+    }
+
+
+</script>
+
+</body>
+
+</html>

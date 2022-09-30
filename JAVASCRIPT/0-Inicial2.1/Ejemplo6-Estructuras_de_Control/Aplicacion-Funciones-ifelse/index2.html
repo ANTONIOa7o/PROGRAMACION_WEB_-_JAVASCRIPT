@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Practico</title>
+    <script src="js/script2.js"></script>
+    <link rel="stylesheet" href="css/styles2.css">
+</head>
+<body>
+    <!--Dragables-->
+    <div id="madrid" ondragstart="inicio()" ondragend="fin()" draggable="true">Madrid</div>
+    <div id="paris" ondragstart="inicio()" ondragend="fin()" draggable="true" class="paris">Paris</div>
+    <div id="lisboa" ondragstart="inicio()" ondragend="fin()" draggable="true">Lisboa</div>
+
+    <!--Contenedores-->
+    <div id="españa" ondragleave="leave()" ondragover="over()" ondrop="drop()" class="contenedor"> <img id="españa" src="images/espana.png" alt="">ESPAÑA</div>
+    <div id="francia" ondragleave="leave()" ondragover="over()" ondrop="drop()" class="contenedor"><img id="francia" src="images/francia.png" alt="">FRANCIA</div>
+    <div id="portugal" ondragleave="leave()" ondragover="over()" ondrop="drop()"class="contenedor"><img id="portugal" src="images/portugal.png" alt="">PORTUGAL</div>
+</body>
+</html>

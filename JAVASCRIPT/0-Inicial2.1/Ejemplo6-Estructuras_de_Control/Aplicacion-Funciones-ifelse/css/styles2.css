@@ -1,0 +1,58 @@
+.contenedor{
+    margin-top:250px;
+    height: 280px;
+    width: 150px;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    text-align: center;
+}
+.paris{
+    height: 100px;
+    width: 120px;
+    float: left;
+    margin: 20px;
+    background: url(https://parisando.b-cdn.net/wp-content/uploads/sites/11/2022/03/la-torre-eiffel-en-paris.jpg) no-repeat ;
+ /*    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+    text-align: center;
+    border-radius: 50%;
+
+}
+#lisboa{
+    height: 100px;
+    width: 120px;
+    float: left;
+    margin: 20px;
+    background: url(https://cdn2.civitatis.com/portugal/lisboa/guia/torre-belem-grid-m.jpg) no-repeat ;
+ /*    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+    text-align: center;
+    border-radius: 50%;
+
+}
+#madrid{
+    height: 100px;
+    width: 120px;
+    float: left;
+    margin: 20px;
+    background: url(https://www.aviontourism.com/images/1600-900-fix/34f1b37a-3d8c-4865-a88b-7d2f52804889) no-repeat ;
+ /*    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+    text-align: center;
+    border-radius: 50%;
+
+}
