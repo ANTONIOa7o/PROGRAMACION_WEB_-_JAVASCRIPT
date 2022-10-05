@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+    <link rel="stylesheet" href="">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <!--
+2.SWITCH CASE
+
+        Otra estrucura de control, ejecutada desde el planteamiento en elcual puedar darse
+        el caso o la necesidad de tomar una decision(variable) a partir de multiples opciones(varibles).
+        Teniendo en cuenta una salvedad, de necesidad, solo una de ellas puede ser posible
+
+        *Sintaxis:
+            switch case(estructura){
+
+                case valor1:
+                setencia 1;
+                break;
+
+                case valor2:
+                sentencia2;
+                break;
+                .
+                .
+                .
+                .
+                generaremos tantos como opciones necesitemos
+
+                defautl;
+                codigo o sentencias por omision
+            }
+        
+    -->
+    <h2>Identificar genero:</h2>
+    <script>
+
+        var sexo = window.prompt('Escribe tu genero');
+
+        switch(sexo.toLocaleLowerCase()) {
+            case "hombre":
+                swal('Estas dentro del colectivo heterosexual o no');
+                break;
+
+            case 'mujer':
+                swal('Estas dentro del colectivo heterosexual');
+                break;
+
+            default:
+                swal('Perteneces a otro colectivo aun por descubrir');
+                break;
+        }
+
+    </script>
+</body>
+
+</html>
