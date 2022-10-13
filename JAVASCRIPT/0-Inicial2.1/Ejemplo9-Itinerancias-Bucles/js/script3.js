@@ -7,7 +7,7 @@ function tablaMultiplicar() {
     var y = parseInt(juanita.value);
     var tabla = "";
 
-    for (i = 1; i <= 10; i++) {
+    for (var i = 1; i <= 10; i++) {
 
         tabla += y + "x" + i + "=" + y*i + "<br>"; 
         
