@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <!--
+        =====
+        AJAX
+        =====
+    ASYNCHRONOUS JAVASCRIPT AND XML, Determinas estructuras que nos permiten hacer
+    'llamadas' en conexiones o enlaces, a servidores con lenguaje javaScript en el entorno
+    Cliente. Con la ventaja de no tener que parar el motor o el ciclo de la pagina, evitando
+    onload, o la propia peticion.
+    Trasladado a otros tipos de dispositivos, perimitien su rapida implatancion, esta Asincronia
+    es abosorbida para cualquier solicitud de servidor.
+    -->
+    <div class="container" style="text-align: center; margin:0 auto ;max-width: 18rem;">
+        <div class="card border-success mb-3" >
+            <div class="card-header">BUSQUEDA DE POKEMONS</div>
+            <div id="resultado" class="card-body text-success">
+              <h5 class="card-title">Encuentra las caracteristicas principales del tu Pokemon</h5>
+              <p class="card-text">Encontrarás por su nombre, su cualidades, altura y peso,asi como
+                sus habilidades destacadas.
+              </p>
+            </div>
+            <label for="">Introduce nombre del Pokemon:</label>
+            <input type="text" name="" id="nombre">
+            <button class="btn btn-outline-warning" onblur="buscarPokemon()">Buscar:</button>
+        </div>
+    </div>
+</body>
+</html>
